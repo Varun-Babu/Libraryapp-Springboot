@@ -26,4 +26,9 @@ public class Controller {
     public String Delete(){
         return "Delete";
     }
+
+    @PostMapping("/edit")
+    public String Edit(){
+        return "Edit";
+    }
 }
