@@ -21,4 +21,9 @@ public class Controller {
     public String Search(){
         return "search";
     }
+
+    @PostMapping("/delete")
+    public String Delete(){
+        return "Delete";
+    }
 }
