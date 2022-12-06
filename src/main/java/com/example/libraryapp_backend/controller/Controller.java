@@ -16,4 +16,9 @@ public class Controller {
     public String Add(){
         return "add";
     }
+
+    @PostMapping("/search")
+    public String Search(){
+        return "search";
+    }
 }
