@@ -31,4 +31,9 @@ public class Controller {
     public String Edit(){
         return "Edit";
     }
+
+    @PostMapping("/view")
+    public String View(){
+        return "View";
+    }
 }
